@@ -65,18 +65,6 @@ Read-only forensic and monitoring scripts for initial triage and live investigat
 # Scan for payloads with lower size threshold
 .\Incident-Response\Search-Payloads.ps1 -SizeLimitMB 10 -ExportPath "C:\IR\findings.csv"
 ```
-
-## Requirements
-
-| Requirement | Scripts |
-|---|---|
-| WinRM enabled on targets | All remote `ComputerName` operations |
-| Local admin on targets | `Get-SoftwareInventory.ps1`, `Get-PatchComplianceReport.ps1` |
-| winget installed | `Get-WingetInventory.ps1` |
-| PowerShell 5.1+ | All scripts |
-
----
-
 ## Related Projects
 - [Vulnerability Risk Dashboard](https://github.com/dl67337/vulnerability-risk-dashboard) -- Power BI executive reporting built from Tenable scan data
 - [Vulnerability Data Analysis](https://github.com/dl67337/vulnerability-data-analysis) -- Python analysis of CVE trends and remediation velocity
