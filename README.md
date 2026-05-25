@@ -1,6 +1,6 @@
 # PowerShell Endpoint Tools
 
-A collection of PowerShell scripts for endpoint management, incident response, and ransomware triage in enterprise Windows environments. Built around real-world workflows using SCCM/MECM, Active Directory, Windows Update, and Tenable vulnerability management pipelines.
+A collection of PowerShell scripts for endpoint management, incident response, and ransomware triage in enterprise Windows environments. Built around actual workflows using SCCM/MECM, Active Directory, Windows Update, and Tenable vulnerability management pipelines.
 
 ---
 
